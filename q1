@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        System.out.println("enter year");
+        int year=a.nextInt();
+        int rem=year%10;
+        int result=year-rem;
+        System.out.println(result);
+    }
+}
