@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        StringTokenizer a= new StringTokenizer("hari jedbv ni");
+        System.out.println(a.countTokens());
+    }
+}
