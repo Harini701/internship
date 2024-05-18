@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Pick{
+    public static void main(String[] args){
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter number1:");
+        int a =s.nextInt();
+        System.out.println("enter number2:");
+        int b =s.nextInt();
+        System.out.println("enter divisor:");
+        int c =s.nextInt();
+        for (int i=a;i<=b;i++)
+        {
+            if(i%c==0)
+                System.out.println(i+"is the divisible of "+c);
+        }
+
+    }
+}
